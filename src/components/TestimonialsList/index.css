@@ -1,0 +1,30 @@
+.testimonial-item {
+  width: 300px;
+  text-align: center;
+}
+.user-name {
+  color: #2d2e2e;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.line {
+  width: 130px;
+  border-top: 1px solid green;
+}
+.user-feedback {
+  color: #2d2e2e;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+@media screen and (max-width: 768px) {
+  .testimonial-item {
+    width: 100%;
+  }
+}

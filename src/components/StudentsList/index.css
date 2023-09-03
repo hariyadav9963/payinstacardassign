@@ -1,0 +1,40 @@
+.student-card {
+  background-color: #ffffff;
+  display: flex;
+  width: 360px;
+  padding: 25px;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px #ffffff;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.student-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+.tropical-student-details {
+  margin-left: 16px;
+}
+.student-name {
+  color: var(--black, #000);
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.student-description {
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  .student-card {
+    width: 100%;
+  }
+}

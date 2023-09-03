@@ -1,0 +1,92 @@
+.tropical-container {
+  padding: 50px 120px;
+  background-color: #ebebeb;
+}
+.sutrack-container {
+  text-align: right;
+}
+.sub-track {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+}
+.tropical-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.student-list-container {
+  list-style: none;
+  padding: 0;
+}
+.icon-tropical {
+  width: 93px;
+  height: 93px;
+  flex-shrink: 0;
+}
+.tropical-heading {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 368px;
+  height: 82px;
+}
+.tropical-heading-span {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tropical-list {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+.tropical-description {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.explore-button {
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  background-color: #f27a44;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .tropical-container {
+    padding: 10px 20px;
+  }
+  .sub-track {
+    display: none;
+  }
+  .tropical-details-container {
+    flex-direction: column;
+  }
+  .icon-tropical {
+    display: none;
+  }
+  .tropical-heading {
+    font-size: 20px;
+    width: 100%;
+  }
+  .tropical-heading-span {
+    font-size: 20px;
+  }
+}

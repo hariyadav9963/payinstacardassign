@@ -1,0 +1,158 @@
+.schedule-container {
+  padding: 50px 120px;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.schedule-image-container {
+  display: flex;
+}
+.schedule-image {
+  height: 612px;
+  width: 410px;
+}
+.form-container {
+  background-color: #ffffff;
+  width: 360px;
+  box-shadow: 1px 1px 1px 1px #ffffff;
+  padding: 20px;
+}
+.form-header {
+  margin-bottom: 30px;
+}
+.form-body {
+  margin-bottom: 50px;
+}
+.book-now-button {
+  border-radius: 5px;
+  background: #000;
+  color: #ffffff;
+  border: 0;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.261px;
+  height: 45px;
+  width: 126px;
+}
+.form-heading {
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 32.685px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.form-description {
+  color: #282828;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.city-input-container {
+  margin-bottom: 10px;
+}
+.label {
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.848px;
+  letter-spacing: 0.584px;
+}
+.city-input {
+  border-radius: 7px;
+  border: 0px solid #000;
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 38px;
+  padding: 10px;
+}
+.arrival-departure-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.arrival-input-container {
+  margin-right: 10px;
+}
+.arrival-input {
+  border-radius: 7px;
+  border: 0px solid #000;
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 38px;
+  padding: 10px;
+}
+.departure-input-container {
+  margin-left: 10px;
+}
+.departure-input {
+  border-radius: 7px;
+  border: 0px solid #000;
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 38px;
+  padding: 10px;
+}
+.room-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.star-input-container {
+  margin-right: 10px;
+}
+.plus-minus-button-container {
+  width: 100%;
+  height: 38px;
+  border-radius: 7px;
+  border: 0px solid #000;
+  background: #f3f3f3;
+}
+.no-of-rooms-input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  text-align: center;
+  width: 30px;
+}
+.minus-button {
+  background-color: #ebebeb;
+  color: #000000;
+  border: 0;
+  height: 38px;
+  width: 38px;
+  font-size: 20px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.plus-button {
+  background-color: #ebebeb;
+  color: #000000;
+  border: 0;
+  height: 38px;
+  width: 38px;
+  font-size: 20px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+@media screen and (max-width: 768px) {
+  .schedule-container {
+    padding: 10px 20px;
+  }
+  .schedule-image-container {
+    display: none;
+  }
+  .form-container {
+    width: 100%;
+  }
+}

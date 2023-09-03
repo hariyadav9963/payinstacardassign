@@ -1,0 +1,70 @@
+.student-discount-container {
+  padding: 50px 120px;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.student-discount-image {
+  width: 400px;
+  height: 500.5px;
+  flex-shrink: 0;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+}
+.subtract {
+  width: 59px;
+  height: 59px;
+  flex-shrink: 0;
+}
+.offer-percentage {
+  color: #1f2027;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.student-discount-heading {
+  color: #1f2027;
+  font-family: 'Inter';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 550px;
+}
+.student-discount-span {
+  color: #1f2027;
+  font-family: 'Inter';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 768px) {
+  .student-discount-container {
+    padding: 10px 20px;
+  }
+  .student-discount-image {
+    display: none;
+  }
+  .logo-container {
+    display: none;
+  }
+  .offer-percentage {
+    font-size: 15px;
+  }
+  .student-discount-heading {
+    font-size: 20px;
+    width: 100%;
+  }
+  .student-discount-span {
+    font-size: 22px;
+  }
+  .tropical-list {
+    font-size: 12px;
+  }
+}

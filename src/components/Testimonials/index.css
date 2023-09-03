@@ -1,0 +1,30 @@
+.testimonials-container {
+  padding: 50px 120px;
+  background-color: #ebebeb;
+}
+.testimonial-list-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonials-heading {
+  color: #000;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials-container {
+    padding: 10px 20px;
+  }
+
+  .testimonial-list-container {
+    flex-direction: column;
+  }
+}
